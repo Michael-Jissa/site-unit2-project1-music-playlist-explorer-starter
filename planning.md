@@ -2,7 +2,23 @@
 ## Music Playlist Explorer — Planning Spec
 
 ### Data Shape
-[Leave blank — fill in before Milestone 3]
+playlist:
+  - id (number) — unique identifier for the playlist.
+  - title (string) — playlist name shown on cards and modal.
+  - creator (string) — name of the user/curator who made the playlist.
+  - coverImageUrl (string) — image URL used as the playlist cover.
+  - likes (number) — current like count shown on the playlist card.
+  - isFeatured (boolean) — marks whether playlist appears in Featured view.
+  - description (string) — short summary shown in modal details.
+  - songs (array<song>) — ordered list of song objects in this playlist.
+
+song:
+  - id (number) — unique identifier for the song.
+  - title (string) — song title shown in the song list.
+  - artist (string) — primary artist name shown under the title.
+  - album (string) — album name shown in song metadata.
+  - duration (string) — track length in mm:ss format for display.
+  - coverImageUrl (string) — song thumbnail shown in the modal list.
 
 ### UI and Interaction Rules
 The home page should be a simple page with an aesthetic look. On the top left should be the title of the page and on the right shoulfd be two tabs, featured and all. Below that is the main body section. It should be visually distinct from the navigation + header. Then the body should contain rows of cards with curved edges. A desktop screen should have display 2 rows of 4 cards. Each card should contain a cover image of the playlist, name of the song, created by,and like count with the like symbol. Clicking a playlist will make a playlist pop up with a cover image with the name and details, a button to shuffle, a list of the songs with their names and details, the length of the music on the right side of the song's card with a scroll-down. The featured tab should contain a plalist (a list of songs on the right and a big cover image of the playlist on the left.) The shuffle butten should rearrange the songs. Clicking the like button should light the heart red and incriment the count.
