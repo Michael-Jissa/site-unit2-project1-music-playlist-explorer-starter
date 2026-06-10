@@ -1,1 +1,472 @@
-
+[
+  {
+    "id": 1,
+    "title": "80s bangers",
+    "creator": "Michael Jissa",
+    "coverImageUrl": "https://i.redd.it/michael-jacksons-album-covers-in-hd-v0-kclbp2x7pv3b1.png?width=1500&format=png&auto=webp&s=61e8a0e8ac109066527a8c67c0ed2bb7a7532509",
+    "likes": 284,
+    "isFeatured": true,
+    "description": "Big hooks, synths, and nonstop 80s energy.",
+    "songs": [
+      {
+        "id": 101,
+        "title": "Neon Lights",
+        "artist": "The Midnight Echo",
+        "album": "Retro Pulse",
+        "length": "3:58",
+        "duration": "3:58",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 102,
+        "title": "After Dark",
+        "artist": "Skyline Riders",
+        "album": "City Heat",
+        "length": "4:11",
+        "duration": "4:11",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 103,
+        "title": "Cassette Dreams",
+        "artist": "Nova Hearts",
+        "album": "Analog Love",
+        "length": "3:36",
+        "duration": "3:36",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 104,
+        "title": "Electric Rush",
+        "artist": "Chrome Avenue",
+        "album": "Midnight Drive",
+        "length": "4:02",
+        "duration": "4:02",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "90s Rock",
+    "creator": "Daniel Ortega",
+    "coverImageUrl": "https://i.redd.it/high-resolution-remasters-of-beatles-album-covers-that-i-v0-gt4kmnf0iz591.png?width=3564&format=png&auto=webp&s=fcfe20f8265dec85ba470ee137e5ca5815b5ac5d",
+    "likes": 319,
+    "isFeatured": true,
+    "description": "Gritty guitars and iconic rock anthems from the 90s.",
+    "songs": [
+      {
+        "id": 201,
+        "title": "Broken Satellites",
+        "artist": "North Harbor",
+        "album": "Static Season",
+        "length": "4:24",
+        "duration": "4:24",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 202,
+        "title": "Paper Walls",
+        "artist": "Velvet District",
+        "album": "Long Way Down",
+        "length": "3:47",
+        "duration": "3:47",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 203,
+        "title": "No Signal",
+        "artist": "Ashline",
+        "album": "Loud Silence",
+        "length": "4:09",
+        "duration": "4:09",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 204,
+        "title": "Open Road",
+        "artist": "Crimson Motel",
+        "album": "After the Show",
+        "length": "3:55",
+        "duration": "3:55",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "2010 Rap",
+    "creator": "Kara Lin",
+    "coverImageUrl": "https://xonomax.com/cdn/shop/files/558414.jpg?v=1712851346",
+    "likes": 401,
+    "isFeatured": true,
+    "description": "Sharp bars and chart-era rap essentials from the 2010s.",
+    "songs": [
+      {
+        "id": 301,
+        "title": "City Code",
+        "artist": "Verse Pilot",
+        "album": "10 PM Stories",
+        "length": "3:22",
+        "duration": "3:22",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 302,
+        "title": "No Days Off",
+        "artist": "Rhyme Theory",
+        "album": "Run It Back",
+        "length": "3:41",
+        "duration": "3:41",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 303,
+        "title": "Westbound",
+        "artist": "Jett Knox",
+        "album": "Concrete Bloom",
+        "length": "4:06",
+        "duration": "4:06",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 304,
+        "title": "All Caps",
+        "artist": "Milo Crest",
+        "album": "Frame by Frame",
+        "length": "2:58",
+        "duration": "2:58",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lamar",
+    "creator": "Sofia Grant",
+    "coverImageUrl": "https://media.pitchfork.com/photos/658d8c80f3c653a4dd7f73df/master/w_1600%2Cc_limit/Kendrick-Lamar-Mr-Morale-and-the-Big-Steppers.jpg",
+    "likes": 522,
+    "isFeatured": true,
+    "description": "A focused Kendrick Lamar-inspired mix of storytelling tracks.",
+    "songs": [
+      {
+        "id": 401,
+        "title": "Section Nights",
+        "artist": "K. Lumen",
+        "album": "Poet's Block",
+        "length": "4:32",
+        "duration": "4:32",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 402,
+        "title": "Butterfly Theory",
+        "artist": "K. Lumen",
+        "album": "Wing Span",
+        "length": "3:49",
+        "duration": "3:49",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 403,
+        "title": "Moral Compass",
+        "artist": "Compton Script",
+        "album": "Black Ink",
+        "length": "4:01",
+        "duration": "4:01",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 404,
+        "title": "DNA Patterns",
+        "artist": "West Ledger",
+        "album": "Generations",
+        "length": "3:14",
+        "duration": "3:14",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "90s Hip Hop",
+    "creator": "Malik Carter",
+    "coverImageUrl": "https://preview.redd.it/i-make-90s-hip-hop-inspired-art-and-trying-to-make-album-v0-zzlhts4t49541.jpg?width=640&crop=smart&auto=webp&s=735bdab50c22ee55e741c6f8368843e52459a046",
+    "likes": 367,
+    "isFeatured": true,
+    "description": "Golden-era hip hop with boom bap drums and legendary flows.",
+    "songs": [
+      {
+        "id": 501,
+        "title": "Concrete Poets",
+        "artist": "Bronx Static",
+        "album": "Tape Deck Days",
+        "length": "3:51",
+        "duration": "3:51",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 502,
+        "title": "Block Cipher",
+        "artist": "Cipher Kings",
+        "album": "Street Lessons",
+        "length": "4:12",
+        "duration": "4:12",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 503,
+        "title": "Vinyl Smoke",
+        "artist": "Needle Drop Crew",
+        "album": "Dusty Classics",
+        "length": "3:27",
+        "duration": "3:27",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 504,
+        "title": "Late Train",
+        "artist": "Metro Rhymes",
+        "album": "Midnight Platform",
+        "length": "4:08",
+        "duration": "4:08",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Banger Beats",
+    "creator": "Avery Kim",
+    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrF1LXrHiY1ODpsk4gLs0Ty44V6lBztxooKQ&s",
+    "likes": 256,
+    "isFeatured": true,
+    "description": "Instrumental beats for focus, writing, and coding sessions.",
+    "songs": [
+      {
+        "id": 601,
+        "title": "Loft Session",
+        "artist": "Beat Harbor",
+        "album": "Midnight Loops",
+        "length": "2:44",
+        "duration": "2:44",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 602,
+        "title": "Soft Drizzle",
+        "artist": "Tape Garden",
+        "album": "Rain Notes",
+        "length": "3:09",
+        "duration": "3:09",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 603,
+        "title": "Cloud Sample",
+        "artist": "Nora Beat",
+        "album": "Skyline Chops",
+        "length": "2:58",
+        "duration": "2:58",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 604,
+        "title": "Daybreak Drumkit",
+        "artist": "Loop Theory",
+        "album": "First Light",
+        "length": "3:16",
+        "duration": "3:16",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "R&B",
+    "creator": "Jasmine Cole",
+    "coverImageUrl": "https://xonomax.com/cdn/shop/files/598683.jpg?v=1726578898",
+    "likes": 298,
+    "isFeatured": true,
+    "description": "Smooth R&B vocals, warm chords, and late-night vibes.",
+    "songs": [
+      {
+        "id": 701,
+        "title": "Velvet Hours",
+        "artist": "Siena Rae",
+        "album": "Moonlight Letters",
+        "length": "3:35",
+        "duration": "3:35",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 702,
+        "title": "Slow Echo",
+        "artist": "Rue Martin",
+        "album": "After Midnight",
+        "length": "4:20",
+        "duration": "4:20",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 703,
+        "title": "Warm Air",
+        "artist": "Mila Fox",
+        "album": "Soft Focus",
+        "length": "3:42",
+        "duration": "3:42",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 704,
+        "title": "Late Call",
+        "artist": "Nico Blue",
+        "album": "Signal",
+        "length": "3:28",
+        "duration": "3:28",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Not Chill Bro",
+    "creator": "Harper Diaz",
+    "coverImageUrl": "https://i.pinimg.com/736x/c2/98/79/c2987983e24e63673db978601ca4844b.jpg",
+    "likes": 343,
+    "isFeatured": true,
+    "description": "Relaxed, mellow tracks for slow mornings and calm evenings.",
+    "songs": [
+      {
+        "id": 801,
+        "title": "Blue Morning",
+        "artist": "Sora Lane",
+        "album": "Open Window",
+        "length": "3:11",
+        "duration": "3:11",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 802,
+        "title": "Quiet Coast",
+        "artist": "Oceanfield",
+        "album": "Tide Lines",
+        "length": "3:56",
+        "duration": "3:56",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 803,
+        "title": "Sunroom",
+        "artist": "Pale Gold",
+        "album": "Drift",
+        "length": "2:49",
+        "duration": "2:49",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 804,
+        "title": "Horizon Tea",
+        "artist": "Lina Park",
+        "album": "Still Places",
+        "length": "3:33",
+        "duration": "3:33",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Country",
+    "creator": "Wyatt Reed",
+    "coverImageUrl": "https://www.liveabout.com/thmb/kajMIX0bzf5mLHCbNqjOj7uTqzA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/theoutlaws-58bac3985f9b58af5cb4ebf3.jpg",
+    "likes": 219,
+    "isFeatured": true,
+    "description": "Modern and classic country songs with heart and storytelling.",
+    "songs": [
+      {
+        "id": 901,
+        "title": "Dust Road",
+        "artist": "Hollow Creek",
+        "album": "Long Miles",
+        "length": "3:43",
+        "duration": "3:43",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 902,
+        "title": "Old Pickup",
+        "artist": "June Harbor",
+        "album": "Back Porch",
+        "length": "3:19",
+        "duration": "3:19",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 903,
+        "title": "County Line",
+        "artist": "Riley North",
+        "album": "Fencepost",
+        "length": "4:07",
+        "duration": "4:07",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 904,
+        "title": "Bonfire Glow",
+        "artist": "Mason Grey",
+        "album": "Open Sky",
+        "length": "3:51",
+        "duration": "3:51",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mexican",
+    "creator": "Valeria Cruz",
+    "coverImageUrl": "https://f4.bcbits.com/img/a0662591684_16.jpg",
+    "likes": 392,
+    "isFeatured": true,
+    "description": "Regional Mexican favorites and modern Latin essentials.",
+    "songs": [
+      {
+        "id": 1001,
+        "title": "Calle Dorada",
+        "artist": "Los Cielos",
+        "album": "Noche Viva",
+        "length": "3:26",
+        "duration": "3:26",
+        "coverImageUrl": "https://plus.unsplash.com/premium_photo-1721310985165-4e6e63d5e7a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxidW0lMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "id": 1002,
+        "title": "Corazon Lento",
+        "artist": "Mar Azul",
+        "album": "Cartas",
+        "length": "3:57",
+        "duration": "3:57",
+        "coverImageUrl": "https://i.pinimg.com/originals/c4/3e/14/c43e1480e1ed3786b49a2990379ac056.jpg?nii=t"
+      },
+      {
+        "id": 1003,
+        "title": "Norte y Sur",
+        "artist": "Banda Sol",
+        "album": "Ruta 10",
+        "length": "4:14",
+        "duration": "4:14",
+        "coverImageUrl": "https://www.billboard.com/wp-content/uploads/2023/07/J.-Cole-2014-Forest-Hills-Drive-2014-album-art-billboard-1240.jpg?w=800"
+      },
+      {
+        "id": 1004,
+        "title": "Plaza Nights",
+        "artist": "Ritmo del Valle",
+        "album": "Festival",
+        "length": "3:38",
+        "duration": "3:38",
+        "coverImageUrl": "https://i.pinimg.com/236x/f4/bf/0e/f4bf0ee9e5d36728a3636490696c6b6a.jpg"
+      }
+    ]
+  }
+]
