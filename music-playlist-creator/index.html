@@ -10,18 +10,103 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <!-- Your header content here -->
+    <!-- Shared app header: title + navigation + search -->
+    <header class="site-header">
+        <h1>Music Playlist Explorer</h1>
+        <nav aria-label="Playlist views">
+            <ul>
+                <li>
+                    <input
+                        type="search"
+                        class="header-search-input"
+                        placeholder="search"
+                        aria-label="Search playlists"
+                    >
+                </li>
+                <li><a class="nav-link" href="featured.html">Featured</a></li>
+                <li><a class="nav-link" href="index.html" aria-current="page">All</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <!-- Main page content: full playlist gallery -->
+    <main>
+        <section aria-label="Playlist gallery">
+            <div class="gallery-header">
+                <h2>Browse Playlists</h2>
+                <button type="button" class="add-playlist-button">Add Playlist</button>
+            </div>
+            <div class="playlist-cards" aria-live="polite">
+                </div>
+        </section>
     </main>
 
-    <footer>
-        <!-- Your footer content here -->
+    <!-- Playlist details modal: opens when a card is clicked -->
+    <div class="modal-overlay" role="dialog" aria-modal="true" aria-label="Playlist details">
+        <section class="modal-content">
+            <!-- Adds a new song to the currently open playlist -->
+            <button type="button" class="add-song-button">Add Song</button>
+            <header class="modal-header">
+                <img
+                    src="https://placehold.co/180x180?text=Cover"
+                    alt="Selected playlist cover"
+                    class="modal-cover"
+                >
+                <div class="modal-playlist-meta">
+                    <h2>Playlist Title</h2>
+                    <p class="modal-creator">Creator Name</p>
+                    <!-- Modal actions for song randomization and AI summary -->
+                    <div class="modal-action-row">
+                        <button type="button" class="shuffle-button">Shuffle</button>
+                        <button type="button" class="generate-description-button">Generate Description</button>
+                    </div>
+                </div>
+            </header>
+            <!-- AI-generated description output area -->
+            <section class="ai-description-box" aria-live="polite">
+                <p class="ai-description-text">Click "Generate Description" to create an AI summary for this playlist.</p>
+            </section>
+
+            <!-- Song list for selected playlist -->
+            <ul class="song-list" aria-label="Songs in playlist">
+                <li class="song-item">
+                    <img
+                        src="https://placehold.co/64x64?text=Song"
+                        alt="Song cover art"
+                        class="song-cover"
+                    >
+                    <div class="song-meta">
+                        <h3>Song Title</h3>
+                        <p>Artist Name</p>
+                        <p>Album Name</p>
+                    </div>
+                    <span class="song-duration">0:00</span>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+        <small>Music Playlist Explorer</small>
     </footer>
-    <script src="data/data.js"></script>
+    <!-- Reusable data-entry popup for add/edit flows -->
+    <div class="data-form-overlay" aria-hidden="true">
+        <section class="data-form-modal" role="dialog" aria-modal="true" aria-label="Data entry form">
+            <h2 class="data-form-title">Form</h2>
+            <form class="data-form" novalidate>
+                <div class="data-form-fields"></div>
+                <p class="data-form-error" aria-live="polite"></p>
+                <div class="data-form-actions">
+                    <button type="button" class="data-form-cancel">Cancel</button>
+                    <button type="submit" class="data-form-submit">Save</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- API key source (user-managed local file) -->
+    <script src="secret.js"></script>
+    <!-- Main All Playlists page logic -->
     <script src="script.js"></script>
 </body>
 </html>
