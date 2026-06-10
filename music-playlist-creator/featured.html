@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Playlist | Music Playlist Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Shared app header for quick navigation between Featured and All pages -->
+    <header class="site-header">
+        <h1>Music Playlist Explorer</h1>
+        <nav aria-label="Playlist views">
+            <ul>
+                <li><a class="nav-link" href="featured.html" aria-current="page">Featured</a></li>
+                <li><a class="nav-link" href="index.html">All</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Featured page body: random playlist hero on left + songs on right -->
+    <main>
+        <section class="featured-section" aria-label="Featured playlist">
+            <div class="featured-layout">
+                <!-- Left panel: highlighted playlist cover and metadata -->
+                <article class="featured-hero">
+                    <img
+                        class="featured-cover"
+                        src="https://placehold.co/900x900?text=Featured+Playlist"
+                        alt="Featured playlist cover"
+                    >
+                    <div class="featured-meta">
+                        <h2 class="featured-title">Featured Playlist</h2>
+                        <p class="featured-creator">Created by Playlist Curator</p>
+                        <p class="featured-description">A fresh random playlist appears each time this page loads.</p>
+                    </div>
+                </article>
+
+                <!-- Right panel: songs for the selected featured playlist -->
+                <aside class="featured-songs">
+                    <h3>Track List</h3>
+                    <ul class="song-list featured-song-list" aria-label="Featured playlist songs">
+                        <li class="song-item">
+                            <img src="https://placehold.co/64x64?text=Song" alt="Song cover" class="song-cover">
+                            <div class="song-meta">
+                                <h3>Song Title</h3>
+                                <p>Artist Name</p>
+                            </div>
+                            <span class="song-duration">0:00</span>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+        <small>Music Playlist Explorer</small>
+    </footer>
+
+    <!-- Featured page script: picks and renders one random playlist -->
+    <script src="featured.js"></script>
+</body>
+</html>
