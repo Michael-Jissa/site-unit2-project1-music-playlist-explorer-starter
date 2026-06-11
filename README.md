@@ -2,9 +2,9 @@
 
 ## Unit Assignment: Music Playlist Explorer
 
-Submitted by: **NAME**
+Submitted by: **Michael Jissa**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **13** hours spent in total
 
 ### Application Features
 
@@ -146,26 +146,30 @@ Estimated time spent: **#** hours spent in total
 
 `TODO://` Paste the **shareable link** to your animated app walkthrough below (replace `ADD_LOOM_LINK_HERE`). GitHub markdown won't render an embedded Loom player, so a plain link is what graders will use. Make sure the link is public and playable before submitting. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website. (🚫 Remove this paragraph after adding your walkthrough link.)
 
-**Walkthrough video:** [Music Playlist Explorer Walkthrough](ADD_LOOM_LINK_HERE)
+**Walkthrough video:** https://www.loom.com/share/377d9ab1f56348a1bda242d958a8fb6a
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, the topics discussed did prepare me for the project. The code alongs helped a lot with try catch blocks and APIs.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time I would add the sort feature and clean my code better.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+The prject demo was good. The actual presentation was good but I was underprepared when it comes to the slides. I've seen peers with a well prepared slide with code snippets so I would like to add those next.
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+- Pexele.com
+- Courses.codepath.com
+- Cursor
 
 ### Shout out
+
+- Greg Merill
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
